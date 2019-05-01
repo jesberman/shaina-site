@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Mendelawi
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <header>
+
+        <div>
+            <h2 style="text-align: center; font-family: 'Uncial Antiqua', cursive;">
+                MENDELAWI
+            </h2>
+            <!-- <h2 style="text-align: center; font-family: 'Cormorant', serif;">
+            MENDELAWI
+        </h2> -->
+            <!-- <h2 style="text-align: center; font-family: 'Gilda Display', serif;">
+            MENDELAWI
+        </h2> -->
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a id="nav-collections" class="nav-collections-share" href="">
+                COLLECTIONS
+                <br>
+            </a>
+            <a id="nav-about" class="nav-about-share" href="">
+                ABOUT
+            </a>
+            <a id="nav-contact" class="nav-contact-share" href="">
+                CONTACT
+            </a>
+            <a id="nav-blog" class="nav-blog-share" href="">
+                BLOG
+            </a>
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div>
+            <div id="nav-collections-div" class="nav-collections-share hide">
+                <div style="padding: 20px; float: left;">
+                    <ul class="nav-ul">
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Collections Item
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Collections Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Collections Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="padding: 20px; float: left;">
+                    <ul class="nav-ul">
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Collections Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Collections Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Collections Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="nav-about-div" class="nav-about-share hide">
+                <div style="padding: 20px; float: left;">
+                    <ul class="nav-ul">
+                        <li>
+                            <a class="nav-list-item" href="">
+                                About Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                About Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                About Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="padding: 20px; float: left;">
+                    <ul class="nav-ul">
+                        <li>
+                            <a class="nav-list-item" href="">
+                                About Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                About Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                About Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nav-contact-div" class="nav-contact-share hide">
+                <div style="padding: 20px; float: left;">
+                    <ul class="nav-ul">
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Contact Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Contact Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Contact Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="padding: 20px; float: left;">
+                    <ul class="nav-ul">
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Contact Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Contact Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Contact Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nav-blog-div" class="nav-blog-share hide">
+                <div style="padding: 20px; float: left;">
+                    <ul class="nav-ul">
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Blog Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Blog Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Blog Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="padding: 20px; float: left;">
+                    <ul class="nav-ul">
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Blog Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Blog Item
+                            </a>
+                        </li>
+                        <br>
+
+                        <li>
+                            <a class="nav-list-item" href="">
+                                Blog Item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+
+    <div style="width: 100%;">
+        <img style="width: 100%;" src="assets/images/banner.jpg">
+    </div>
+
+    <div class="box-div">
+        <div id="box-image-1">
+            <div >
+                <h1 class="box-image-text-lg">
+                    <i>
+                        New Arrivals
+                    </i>
+                </h1>
+                <br>
+                <p class="box-image-text-sm">
+                    <i>
+                        Shop Now
+                    </i>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="box-div">
+        <div id="box-image-2">
+            <div >
+                <h1 class="box-image-text-lg">
+                    <i>
+                        Bridal Collection
+                    </i>
+                </h1>
+                <br>
+                <p class="box-image-text-sm">
+                    <i>
+                        Shop Now
+                    </i>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-div">
+        <div id="box-image-3">
+            <div >
+                <h1 class="box-image-text-lg">
+                    <i>
+                        Jewelry Collection
+                    </i>
+                </h1>
+                <br>
+                <p class="box-image-text-sm">
+                    <i>
+                        Shop Now
+                    </i>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="box-div">
+        <div id="box-image-4">
+            <div >
+                <h1 class="box-image-text-lg">
+                    <i>
+                        Bridesmaids Collection
+                    </i>
+                </h1>
+                <br>
+                <p class="box-image-text-sm">
+                    <i>
+                        Shop Now
+                    </i>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="footer-main">
+        <div style="width: 100%;">
+
+            <div id="footer-row1">
+                <div id="footer-div-1" class="grey-color">
+                    <h3>
+                        CUSTOMER SERVICE
+                    </h3>
+                    <a class="footer-items" href="">
+                        <h4>
+                            Return Policy
+                        </h4>
+                    </a>
+                    <a class="footer-items" href="">
+                        <h4>
+                            FAQ
+                        </h4>
+                    </a>
+
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                </div>
+
+                <div id="footer-div-2" class="grey-color">
+                    <h3>
+                        CORPORATE
+                    </h3>
+                    <a class="footer-items" href="">
+                        <h4>
+                            Privacy Policy
+                        </h4>
+                    </a>
+
+                    <a class="footer-items" href="">
+                        <h4>
+                            Terms & Conditions
+                        </h4>
+                    </a>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                </div>
+            </div>
+
+            <div id="footer-row2">
+                <div id="footer-div-3" class="grey-color">
+                    <h3>
+                        FOLLOW US
+                    </h3>
+                    <!-- Facebook -->
+                    <a href="" class="fa fb-ic">
+                        <i id="footer-face" class=" fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="footer-items" href="">
+                        <h4 id="footer-face-text" style="display: inline;">
+                            Facebook
+                        </h4>
+                    </a>
+                    <br>
+                    <br>
+                    <!-- Twitter -->
+                    <a href="" class="fa tw-ic grey-color">
+                        <i id="footer-twi" class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="footer-items" href="">
+                        <h4 id="footer-twi-text" style="display: inline;">
+                            Twitter
+                        </h4>
+                    </a>
+                    <br>
+                    <br>
+                    <!--Instagram-->
+                    <a href="" class="fa ins-ic">
+                        <i id="footer-insta" class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="footer-items" href="">
+                        <h4 id="footer-insta-text" style="display: inline;">
+                            Instagram
+                        </h4>
+                    </a>
+                    <br>
+                    <br>
+                    <!--Pinterest-->
+                    <a href="" class="fa pin-ic">
+                        <i id="footer-pin" class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                    </a>
+                    <a class="footer-items" href="">
+                        <h4 id="footer-pin-text" style="display: inline;">
+                            Pinterest
+                        </h4>
+                    </a>
+                </div>
+
+                <div id="footer-div-4" class="grey-color">
+                    <h3>
+                        CONTACT
+                    </h3>
+                    <a class="footer-items" href="">
+                        <h4>
+                            Contact Us
+                        </h4>
+                    </a>
+
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div style="margin-left: 3%;">
+            <h5 style="display: inline;">
+                COPYRIGHT 2019 MENDELAWI |
+            </h5>
+            <h5 style="display: inline;">
+                Developed by
+                <a href="https://jesberman.github.io/" style="text-decoration:none; display: inline; color:#6B6B6B;">Jes Berman Consulting </a>
+            </h5>
+        </div>
+    </footer>
+
+    <script src="assets/javascript/logic.js">
+
+    </script>
+</body>
+
+
+</html>
